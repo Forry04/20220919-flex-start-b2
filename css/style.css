@@ -1,0 +1,86 @@
+.container{
+  width: 1200px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  
+}
+
+.item {
+  width: 150px;
+}
+
+.red {
+  background-color: red;
+  height: 200px;
+  display: flex;
+  order: 3;
+  flex-grow: 2;
+}
+
+.green {
+  background-color: green;
+  height: 250px;
+  order: 4;
+  flex-grow: 2;
+}
+
+.blue {
+  background-color: blue;
+  height: 300px;
+  order: 5;
+}
+
+.orange {
+  background-color: orange;
+  height: 400px;
+  order: 2;
+}
+
+.black {
+  background-color: black;
+  height: 100px;
+  order: 1;
+}
+
+.mini {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.container1{
+    width: 1200px;
+    height: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px black;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+  }
+
+.container2{
+    width: 1200px;
+    height: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2{
+    align-self: flex-end;
+}
+.box4{
+    align-self: flex-start;
+}
